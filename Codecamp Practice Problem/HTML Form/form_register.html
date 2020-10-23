@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Create an Account</h1>
+    <form action="/action_page.php">
+        <span class="tab"><label for="Email">Email:</label></br>
+        <input type="text" id="email"  name="email"></br></br>
+        <span class="tab"><label for="Password">Password:</label></br>
+        <input type="password" id="password"  name="password"></br></br>
+        <label for="cars">Age:</label></br>
+        <select name="Age">
+            <option value="Select Age">Select Age</option>
+            <option value="20-30">20-30 years old</option>
+            <option value="31-40">31-40 years old</option>
+            <option value="41-50">41-50 years old</option>
+            <option value="51-60">51-60 years old</option>
+        </select></br></br>
+        <label for="Self-description">Tell us a little about yourself:</label></br>
+        <textarea name="Description" rows="6" cols="50"></textarea></br></br>
+        <input type="radio" id="agree" name="agree" value="agree">
+        <label for="agree">I agree to the <a href="https://en.wikipedia.org/wiki/Terms_of_service">terms of service</a></label></br></br>
+        <button type="button">Sign up</button>
+    </form>
+</body>
+</html>
