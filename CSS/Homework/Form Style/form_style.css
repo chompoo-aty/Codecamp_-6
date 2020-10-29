@@ -1,0 +1,98 @@
+h1 {
+    font-size: 270%;
+    color: black;
+}
+h1 .color-pink {
+    color: deeppink;
+}
+h1.title {
+    position: absolute;
+}
+.symbol2 {
+    color: orange;
+    font-size: 200%;
+    font-family: "Gill Sans", sans-serif;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+.symbol {
+    color: orange;
+    font-size: 200%;
+    font-family: "Gill Sans", sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+.cols-2 {
+    text-align: right;
+    top: 100%;
+}
+form {
+    border: solid white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    text-align: left;
+    font-size: 140%;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    background-color: deeppink;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background: lightgrey;
+    background-size: 50%;
+}
+.doraemon {
+    padding: 35px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+}
+.roles-span, .roles-span2 {
+    display: inline-block;
+}
+.header-jobs, .header-jobs2, .roles-span, .roles-span2 {
+    padding-right: 10px;
+}
+.roles {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    font-size: 110%;
+}
+.header-jobs h1, .header-jobs2 h1 {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.clients {
+    padding-top: 150px;
+    color: orange;
+    font-family: cursive;
+    font-size: 130%;
+}
+.cat {
+    color: #505050;
+    font-family: serif;
+    font-size: 120%;
+    padding-right: 35px;
+    padding-left: 35px;
+}
